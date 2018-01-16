@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		303514EA200E226F00079BD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 303514E9200E226F00079BD8 /* AppDelegate.m */; };
-		303514ED200E226F00079BD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 303514EC200E226F00079BD8 /* ViewController.m */; };
-		303514F0200E226F00079BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303514EE200E226F00079BD8 /* Main.storyboard */; };
 		303514F2200E226F00079BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303514F1200E226F00079BD8 /* Assets.xcassets */; };
 		303514F5200E226F00079BD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303514F3200E226F00079BD8 /* LaunchScreen.storyboard */; };
 		303514F8200E226F00079BD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 303514F7200E226F00079BD8 /* main.m */; };
 		30351502200E226F00079BD8 /* TooManyLayersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30351501200E226F00079BD8 /* TooManyLayersTests.m */; };
 		3035150D200E226F00079BD8 /* TooManyLayersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3035150C200E226F00079BD8 /* TooManyLayersUITests.m */; };
+		30351528200E22AF00079BD8 /* TestTooManyLayersBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3035151B200E22AF00079BD8 /* TestTooManyLayersBaseCollectionViewCell.m */; };
+		30351529200E22AF00079BD8 /* TestTooManyLayersMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3035151D200E22AF00079BD8 /* TestTooManyLayersMainViewController.m */; };
+		3035152A200E22AF00079BD8 /* TestTooManyLayersDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3035151E200E22AF00079BD8 /* TestTooManyLayersDrawViewController.m */; };
+		3035152B200E22AF00079BD8 /* TestTooManyLayersAddSubviewsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3035151F200E22AF00079BD8 /* TestTooManyLayersAddSubviewsCollectionViewCell.m */; };
+		3035152C200E22AF00079BD8 /* TestTooManyLayersAddSubviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30351520200E22AF00079BD8 /* TestTooManyLayersAddSubviewViewController.m */; };
+		3035152D200E22AF00079BD8 /* TestTooManyLayersDrawCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30351521200E22AF00079BD8 /* TestTooManyLayersDrawCollectionViewCell.m */; };
+		3035152E200E22AF00079BD8 /* TooManyLayers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30351524200E22AF00079BD8 /* TooManyLayers.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +43,6 @@
 		303514E5200E226F00079BD8 /* TooManyLayers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TooManyLayers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		303514E8200E226F00079BD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		303514E9200E226F00079BD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		303514EB200E226F00079BD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		303514EC200E226F00079BD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		303514EF200E226F00079BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		303514F1200E226F00079BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		303514F4200E226F00079BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		303514F6200E226F00079BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,19 @@
 		30351508200E226F00079BD8 /* TooManyLayersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TooManyLayersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3035150C200E226F00079BD8 /* TooManyLayersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TooManyLayersUITests.m; sourceTree = "<group>"; };
 		3035150E200E226F00079BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3035151B200E22AF00079BD8 /* TestTooManyLayersBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTooManyLayersBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		3035151C200E22AF00079BD8 /* TestTooManyLayersDrawCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTooManyLayersDrawCollectionViewCell.h; sourceTree = "<group>"; };
+		3035151D200E22AF00079BD8 /* TestTooManyLayersMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTooManyLayersMainViewController.m; sourceTree = "<group>"; };
+		3035151E200E22AF00079BD8 /* TestTooManyLayersDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTooManyLayersDrawViewController.m; sourceTree = "<group>"; };
+		3035151F200E22AF00079BD8 /* TestTooManyLayersAddSubviewsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTooManyLayersAddSubviewsCollectionViewCell.m; sourceTree = "<group>"; };
+		30351520200E22AF00079BD8 /* TestTooManyLayersAddSubviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTooManyLayersAddSubviewViewController.m; sourceTree = "<group>"; };
+		30351521200E22AF00079BD8 /* TestTooManyLayersDrawCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTooManyLayersDrawCollectionViewCell.m; sourceTree = "<group>"; };
+		30351522200E22AF00079BD8 /* TestTooManyLayersBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTooManyLayersBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		30351523200E22AF00079BD8 /* TestTooManyLayersDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTooManyLayersDrawViewController.h; sourceTree = "<group>"; };
+		30351524200E22AF00079BD8 /* TooManyLayers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TooManyLayers.storyboard; sourceTree = "<group>"; };
+		30351525200E22AF00079BD8 /* TestTooManyLayersMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTooManyLayersMainViewController.h; sourceTree = "<group>"; };
+		30351526200E22AF00079BD8 /* TestTooManyLayersAddSubviewsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTooManyLayersAddSubviewsCollectionViewCell.h; sourceTree = "<group>"; };
+		30351527200E22AF00079BD8 /* TestTooManyLayersAddSubviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTooManyLayersAddSubviewViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +116,9 @@
 		303514E7200E226F00079BD8 /* TooManyLayers */ = {
 			isa = PBXGroup;
 			children = (
+				3035151A200E22AF00079BD8 /* TooManyLayers */,
 				303514E8200E226F00079BD8 /* AppDelegate.h */,
 				303514E9200E226F00079BD8 /* AppDelegate.m */,
-				303514EB200E226F00079BD8 /* ViewController.h */,
-				303514EC200E226F00079BD8 /* ViewController.m */,
-				303514EE200E226F00079BD8 /* Main.storyboard */,
 				303514F1200E226F00079BD8 /* Assets.xcassets */,
 				303514F3200E226F00079BD8 /* LaunchScreen.storyboard */,
 				303514F6200E226F00079BD8 /* Info.plist */,
@@ -130,6 +143,26 @@
 				3035150E200E226F00079BD8 /* Info.plist */,
 			);
 			path = TooManyLayersUITests;
+			sourceTree = "<group>";
+		};
+		3035151A200E22AF00079BD8 /* TooManyLayers */ = {
+			isa = PBXGroup;
+			children = (
+				3035151B200E22AF00079BD8 /* TestTooManyLayersBaseCollectionViewCell.m */,
+				3035151C200E22AF00079BD8 /* TestTooManyLayersDrawCollectionViewCell.h */,
+				3035151D200E22AF00079BD8 /* TestTooManyLayersMainViewController.m */,
+				3035151E200E22AF00079BD8 /* TestTooManyLayersDrawViewController.m */,
+				3035151F200E22AF00079BD8 /* TestTooManyLayersAddSubviewsCollectionViewCell.m */,
+				30351520200E22AF00079BD8 /* TestTooManyLayersAddSubviewViewController.m */,
+				30351521200E22AF00079BD8 /* TestTooManyLayersDrawCollectionViewCell.m */,
+				30351522200E22AF00079BD8 /* TestTooManyLayersBaseCollectionViewCell.h */,
+				30351523200E22AF00079BD8 /* TestTooManyLayersDrawViewController.h */,
+				30351524200E22AF00079BD8 /* TooManyLayers.storyboard */,
+				30351525200E22AF00079BD8 /* TestTooManyLayersMainViewController.h */,
+				30351526200E22AF00079BD8 /* TestTooManyLayersAddSubviewsCollectionViewCell.h */,
+				30351527200E22AF00079BD8 /* TestTooManyLayersAddSubviewViewController.h */,
+			);
+			path = TooManyLayers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +273,7 @@
 			files = (
 				303514F5200E226F00079BD8 /* LaunchScreen.storyboard in Resources */,
 				303514F2200E226F00079BD8 /* Assets.xcassets in Resources */,
-				303514F0200E226F00079BD8 /* Main.storyboard in Resources */,
+				3035152E200E22AF00079BD8 /* TooManyLayers.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				303514ED200E226F00079BD8 /* ViewController.m in Sources */,
+				3035152D200E22AF00079BD8 /* TestTooManyLayersDrawCollectionViewCell.m in Sources */,
+				30351528200E22AF00079BD8 /* TestTooManyLayersBaseCollectionViewCell.m in Sources */,
+				3035152C200E22AF00079BD8 /* TestTooManyLayersAddSubviewViewController.m in Sources */,
+				3035152A200E22AF00079BD8 /* TestTooManyLayersDrawViewController.m in Sources */,
+				30351529200E22AF00079BD8 /* TestTooManyLayersMainViewController.m in Sources */,
 				303514F8200E226F00079BD8 /* main.m in Sources */,
 				303514EA200E226F00079BD8 /* AppDelegate.m in Sources */,
+				3035152B200E22AF00079BD8 /* TestTooManyLayersAddSubviewsCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +341,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		303514EE200E226F00079BD8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				303514EF200E226F00079BD8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		303514F3200E226F00079BD8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
